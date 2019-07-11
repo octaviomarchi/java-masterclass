@@ -33,5 +33,8 @@ public class VariablesDatatypesAndOperators {
 
         boolean myBolean = false;
         boolean isMale = true;
+
+        String numberString = "258";
+        System.out.println("My new String is: " + (numberString + myIntValue));
     }
 }
