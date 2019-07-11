@@ -1,6 +1,6 @@
-package com.octaviomarchi;
+package com.variablesDatatypesOperators;
 
-public class Main {
+public class VariablesDatatypesAndOperators {
     public static void main(String[] args) {
 
         // int has a width of 32
@@ -20,5 +20,18 @@ public class Main {
 
         //long has a width of 64
         long myLongVlaue = 9_223_372_036_854_775_807L;
+
+        int myIntValue = 5 / 3;
+        float myFloatValue = 5f / 3f;
+        double myDoubleValue = 5d / 3d;
+        System.out.println("myIntValue= " + myIntValue);
+        System.out.println("myFloatValue= " + myFloatValue);
+        System.out.println("myDoubleValue= " + myDoubleValue);
+
+        char myChar = '\u00A9';
+        System.out.println("unicode output: " + myChar);
+
+        boolean myBolean = false;
+        boolean isMale = true;
     }
 }
